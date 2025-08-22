@@ -1,0 +1,123 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+      
+    }
+
+    /* Header Section */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #666;
+      padding: 20px 50px;
+    }
+
+    .header img {
+      width: 120px;
+      border-radius: 10px;
+    }
+
+    .header .intro {
+     
+      margin-left: 20px;
+      text-align: center;
+      color: #f5f5dc;
+
+    }
+
+    .header .intro h1 {
+      margin: 10px 0 5px;
+    }
+
+    .header .intro h3 {
+      margin: 5px 0;
+      font-weight: normal;
+    }
+
+    /* Navigation aligned to the right */
+    nav {
+      margin-left: auto;
+      animation:reverse;
+    }
+    
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }   
+
+    nav a:hover {
+      color: orangered;
+    }
+
+    /* Section styling */
+    section {
+      height:fit-content; /* full screen */
+      padding: 40px ;
+      text-align: center;
+      font-size: 24px;
+      margin-top: 10px;
+   }
+
+    /* #about { background:mediumpurple;
+    transform: scale(1.05)}
+    #academics { background: grey}
+    #skills { background: mediumpurple }
+    #projects{background-color: grey;}
+    #footer{background-color:beige;} */
+    h1,h3{
+        text-align: left;
+        padding: 1px;
+    }
+    .top
+    {
+        margin-top: 3px solid ;
+    }
+    ul
+    {
+        text-align: left;
+        padding: 1px;
+        list-style-type: circle;
+    }
+    .section:skills
+    {
+        width: 40px;
+    }
+    .footer
+    {
+        background-color: black;
+       height: fit-content;
+        font-size: 24px;
+        padding:40px;
+        text-align: center;
+        color:red;
+    }
+    body {
+  background-image: url("download\ \(1\).jpeg");
+  background-size: cover;      /* fills the screen */
+  background-position: center; /* centers the image */
+  background-attachment: fixed;/* parallax effect */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.bar {
+  background: black;
+  border-radius: 10px;
+  height: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border-radius: 10px;
+  transition: width 2s ease-in-out;
+}
+
